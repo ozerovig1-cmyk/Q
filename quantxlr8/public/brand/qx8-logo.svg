@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  QuantXlr8 horizontal wordmark. The design combines a bold wordmark
+  with a stylised X that forms an arrow pointing forward to denote
+  acceleration. Colours are pulled from the brand palette: electric
+  blue for emphasis and teal for the arrow. The superscript 8 sits
+  above the baseline to the right of the wordmark. This version is
+  designed for light backgrounds.
+-->
+<svg width="340" height="80" viewBox="0 0 340 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .word { font-family: 'Inter', Arial, sans-serif; font-weight: 700; }
+  </style>
+  <!-- "Quant" -->
+  <text class="word" x="0" y="56" font-size="48" fill="#2D6BFF">Quant</text>
+  <!-- Stylised X with arrow; composed of two strokes and a triangular arrow head -->
+  <g transform="translate(170,8)">
+    <path d="M0 8 L28 36" stroke="#00C2B8" stroke-width="10" stroke-linecap="round" />
+    <path d="M0 36 L28 8" stroke="#00C2B8" stroke-width="10" stroke-linecap="round" />
+    <polygon points="28,8 52,22 28,36" fill="#00C2B8" />
+  </g>
+  <!-- "lr" -->
+  <text class="word" x="240" y="56" font-size="48" fill="#2D6BFF">lr</text>
+  <!-- Superscript 8 -->
+  <text class="word" x="305" y="28" font-size="32" fill="#2D6BFF">8</text>
+</svg>

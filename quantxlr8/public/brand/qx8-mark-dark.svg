@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Dark‑usage variant of the QuantXlr8 monogram mark. The square is
+  electric blue with a teal diagonal accent and dark lettering so it
+  pops on dark backgrounds.
+-->
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="100" height="100" rx="20" fill="#2D6BFF" />
+  <!-- Diagonal accent -->
+  <polygon points="60,0 100,0 100,40" fill="#00C2B8" />
+  <!-- Letters -->
+  <text x="16" y="68" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="700" fill="#0B1020">Q</text>
+  <text x="42" y="68" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="700" fill="#0B1020">X</text>
+  <text x="69" y="68" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="700" fill="#0B1020">8</text>
+</svg>

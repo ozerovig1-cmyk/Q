@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  QuantXlr8 global styles
+  -----------------------
+  These styles establish baseline styling across the application. The
+  background uses the brand navy while text defaults to a light
+  neutral. Font families are provided via CSS variables set in
+  `app/layout.tsx`. A skip link is included for accessibility.
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-navy text-grayLight font-body leading-relaxed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Skip link for keyboard users */
+a.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -999;
+}
+a.skip-link:focus {
+  left: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  padding: 0.5rem 1rem;
+  background-color: theme('colors.electric');
+  color: theme('colors.navy');
+  z-index: 50;
+}
